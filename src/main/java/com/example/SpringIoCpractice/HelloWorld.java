@@ -1,6 +1,8 @@
 package com.example.SpringIoCpractice;
 
-public class HelloWorld {
+import org.springframework.stereotype.Component;
+
+public  class HelloWorld {
   private String hello;
 
   public void setHello(String hello) {
